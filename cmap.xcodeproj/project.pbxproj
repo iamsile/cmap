@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7027B0CB1929DF2C00A22EDE /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 7027B0CA1929DF2C00A22EDE /* main.c */; };
 		7027B0CD1929DF2C00A22EDE /* cmap.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7027B0CC1929DF2C00A22EDE /* cmap.1 */; };
+		7027B0D51929DFE000A22EDE /* RBtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 7027B0D41929DFE000A22EDE /* RBtree.c */; };
+		7027B0D81929E06600A22EDE /* cmap.c in Sources */ = {isa = PBXBuildFile; fileRef = 7027B0D71929E06600A22EDE /* cmap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +30,10 @@
 		7027B0C71929DF2C00A22EDE /* cmap */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cmap; sourceTree = BUILT_PRODUCTS_DIR; };
 		7027B0CA1929DF2C00A22EDE /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		7027B0CC1929DF2C00A22EDE /* cmap.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cmap.1; sourceTree = "<group>"; };
+		7027B0D31929DF3E00A22EDE /* RBtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBtree.h; sourceTree = "<group>"; };
+		7027B0D41929DFE000A22EDE /* RBtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RBtree.c; sourceTree = "<group>"; };
+		7027B0D61929E00D00A22EDE /* cmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cmap.h; sourceTree = "<group>"; };
+		7027B0D71929E06600A22EDE /* cmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmap.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 			children = (
 				7027B0CA1929DF2C00A22EDE /* main.c */,
 				7027B0CC1929DF2C00A22EDE /* cmap.1 */,
+				7027B0D31929DF3E00A22EDE /* RBtree.h */,
+				7027B0D41929DFE000A22EDE /* RBtree.c */,
+				7027B0D61929E00D00A22EDE /* cmap.h */,
+				7027B0D71929E06600A22EDE /* cmap.c */,
 			);
 			path = cmap;
 			sourceTree = "<group>";
@@ -117,7 +127,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7027B0D81929E06600A22EDE /* cmap.c in Sources */,
 				7027B0CB1929DF2C00A22EDE /* main.c in Sources */,
+				7027B0D51929DFE000A22EDE /* RBtree.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
